@@ -55,7 +55,7 @@ Three conditional statements: if, choose, for each.
 * Example 3: [MediaConch](https://mediaarea.net/MediaConch) output to HTML, to TXT, to XML
 * Example 4: MARC to MODS in NYPL Metadata Management System
 * Example 5: MODS to NYPL Digital Collections
-
+* Example 6: [LoC MARC to MODS XSL](http://www.loc.gov/standards/mods/v3/MARC21slim2MODS3-3.xsl)
 ## Workshoppin'
 
 * scripts/mediainfo [xml](https://github.com/ablwr/xslt_miap_2016/blob/master/scripts/mediainfo.xml) [xsl](https://github.com/ablwr/xslt_miap_2016/blob/master/scripts/mediainfo_simple.xsl)
