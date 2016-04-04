@@ -55,9 +55,10 @@ Example 5: MODS to NYPL Digital Collections
 
 ## Workshoppin'
 
-scripts/mediainfo [xml]() [xsl]()
-scripts/roles [xml]() [xsl]()
-scripts/movies [xml]() [xsl]()
+scripts/mediainfo [xml](https://github.com/ablwr/xslt_miap_2016/blob/master/scripts/mediainfo.xml) [xsl](https://github.com/ablwr/xslt_miap_2016/blob/master/scripts/mediainfo_simple.xsl)
+scripts/roles [xml](https://github.com/ablwr/xslt_miap_2016/blob/master/scripts/roles.xml) [xsl](https://github.com/ablwr/xslt_miap_2016/blob/master/scripts/roles.xsl)
+scripts/movies [xml](https://github.com/ablwr/xslt_miap_2016/blob/master/scripts/movies.xml) [xsl](https://github.com/ablwr/xslt_miap_2016/blob/master/scripts/movies.xsl)
+scripts/movies (html) [xsl](https://github.com/ablwr/xslt_miap_2016/blob/master/scripts/movies_html.xsl)
 
 ## Command line tools
 [xsltproc](http://xmlsoft.org/XSLT/xsltproc2.html)
