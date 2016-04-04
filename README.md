@@ -39,10 +39,13 @@ parent/..
 1. Notes
 
 .. --  gets you up to the parent element
+
 ancestor::___ -- gets you up as high as it needs to go
 // -- finds everything underneath, like text//p finds all p under text, no matter how far down it is. All descendants.
+
 select="following-sibling::_" -- all nodes after that node
 gt for greater than and lt for lesser than when testing logic statements. Can't use < or > because that is used in the XML structure.
+
 Three conditional statements: if, choose, for each.
 
 ## Examples 
@@ -62,4 +65,5 @@ Three conditional statements: if, choose, for each.
 
 ## Command line tools
 [xsltproc](http://xmlsoft.org/XSLT/xsltproc2.html)
+
 [ffmpeg](https://ffmpeg.org/)
