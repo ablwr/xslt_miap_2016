@@ -7,36 +7,39 @@
 
 ## Intro to XSLT
 
-1. How is XSLT different from other programming languages?
+How is XSLT different from other programming languages?
 
-XSLT to mediate between these different languages
-
-1. Understanding XPath
-1. Oxygen
-
-Download [here](https://www.oxygenxml.com/xml_editor/download_oxygenxml_editor.html) if you don't already have it, register for a free 30-day trial, and confirm code.
-
+XSLT can mediate between different documents.
 
 ## Oxygen
+
+I use command line validators but Oxygen is great for thorough debugging, so we will use Oxygen. 
+Download [here](https://www.oxygenxml.com/xml_editor/download_oxygenxml_editor.html) if you don't already have it, register for a free 30-day trial, and confirm code.
 
 * Setting it up
 * How to use it
 * Valid or not?
 
-## XPath
+## Understanding XPath
 
-Resources:
-[XSLT & XPath Cheatsheet](http://scraping.pro/res/xpath-cheat/XSLT-1.pdf)
-[XPath/CSS/DOM/Selenium Rosetta Stone](http://scraping.pro/res/xpath-cheat/xpath_css_dom_recipes.pdf)
+### Resources
 
-1. Nodes: Elements, attributes, siblings, ancestors, children, descendents?
+[XSLT & XPath Cheatsheet](http://scraping.pro/res/xpath-cheat/XSLT-1.pdf)  
+
+[XPath/CSS/DOM/Selenium Rosetta Stone](http://scraping.pro/res/xpath-cheat/xpath_css_dom_recipes.pdf)       
+
+[XSL functions](http://www.w3schools.com/xsl/xsl_functions.asp)
+
+### Nodes 
+
+Elements, attributes, siblings, ancestors, children, descendents?
 
 /Element
 @attribute
 parent/..
 ../child(ren)
 
-1. Notes
+### Notes on nodes
 
 .. --  gets you up to the parent element
 
@@ -56,6 +59,8 @@ Three conditional statements: if, choose, for each.
 * Example 4: MARC to MODS in NYPL Metadata Management System
 * Example 5: MODS to NYPL Digital Collections
 * Example 6: [LoC MARC to MODS XSL](http://www.loc.gov/standards/mods/v3/MARC21slim2MODS3-3.xsl)
+
+
 ## Workshoppin'
 
 * scripts/mediainfo [xml](https://github.com/ablwr/xslt_miap_2016/blob/master/scripts/mediainfo.xml) [xsl](https://github.com/ablwr/xslt_miap_2016/blob/master/scripts/mediainfo_simple.xsl)
@@ -64,6 +69,7 @@ Three conditional statements: if, choose, for each.
 * scripts/movies (html) [xsl](https://github.com/ablwr/xslt_miap_2016/blob/master/scripts/movies_html.xsl)
 
 ## Command line tools
+
 [xsltproc](http://xmlsoft.org/XSLT/xsltproc2.html)
 
 [ffmpeg](https://ffmpeg.org/)
