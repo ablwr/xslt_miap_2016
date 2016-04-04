@@ -47,18 +47,18 @@ Three conditional statements: if, choose, for each.
 
 ## Examples 
 
-Example: Roles
-Example 2: [PBCore to DublinCore](https://github.com/ablwr/MIRCDVRXSLT/blob/master/pbcore_to_dc.xsl)
-Example 3: [MediaConch](https://mediaarea.net/MediaConch) output to HTML, to TXT, to XML
-Example 4: MARC to MODS in NYPL Metadata Management System
-Example 5: MODS to NYPL Digital Collections
+* Example: Roles
+* Example 2: [PBCore to DublinCore](https://github.com/ablwr/MIRCDVRXSLT/blob/master/pbcore_to_dc.xsl)
+* Example 3: [MediaConch](https://mediaarea.net/MediaConch) output to HTML, to TXT, to XML
+* Example 4: MARC to MODS in NYPL Metadata Management System
+* Example 5: MODS to NYPL Digital Collections
 
 ## Workshoppin'
 
-scripts/mediainfo [xml](https://github.com/ablwr/xslt_miap_2016/blob/master/scripts/mediainfo.xml) [xsl](https://github.com/ablwr/xslt_miap_2016/blob/master/scripts/mediainfo_simple.xsl)
-scripts/roles [xml](https://github.com/ablwr/xslt_miap_2016/blob/master/scripts/roles.xml) [xsl](https://github.com/ablwr/xslt_miap_2016/blob/master/scripts/roles.xsl)
-scripts/movies [xml](https://github.com/ablwr/xslt_miap_2016/blob/master/scripts/movies.xml) [xsl](https://github.com/ablwr/xslt_miap_2016/blob/master/scripts/movies.xsl)
-scripts/movies (html) [xsl](https://github.com/ablwr/xslt_miap_2016/blob/master/scripts/movies_html.xsl)
+* scripts/mediainfo [xml](https://github.com/ablwr/xslt_miap_2016/blob/master/scripts/mediainfo.xml) [xsl](https://github.com/ablwr/xslt_miap_2016/blob/master/scripts/mediainfo_simple.xsl)
+* scripts/roles [xml](https://github.com/ablwr/xslt_miap_2016/blob/master/scripts/roles.xml) [xsl](https://github.com/ablwr/xslt_miap_2016/blob/master/scripts/roles.xsl)
+* scripts/movies [xml](https://github.com/ablwr/xslt_miap_2016/blob/master/scripts/movies.xml) [xsl](https://github.com/ablwr/xslt_miap_2016/blob/master/scripts/movies.xsl)
+* scripts/movies (html) [xsl](https://github.com/ablwr/xslt_miap_2016/blob/master/scripts/movies_html.xsl)
 
 ## Command line tools
 [xsltproc](http://xmlsoft.org/XSLT/xsltproc2.html)
