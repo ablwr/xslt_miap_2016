@@ -5,10 +5,11 @@
 
 # X S L T !
 
+[SLIDES FROM CLASS HERE](http://ablwr.github.io/xslt_miap_2016/#/)
+
 ## Intro to XSLT
 
 How is XSLT different from other programming languages?
-
 XSLT can mediate between different documents.
 
 ## Oxygen
@@ -43,6 +44,8 @@ parent/..
 
 .. --  gets you up to the parent element
 
+/.. -- gets you to the child element
+
 ancestor::___ -- gets you up as high as it needs to go
 // -- finds everything underneath, like text//p finds all p under text, no matter how far down it is. All descendants.
 
@@ -63,13 +66,13 @@ Three conditional statements: if, choose, for each.
 
 ## Workshoppin'
 
-* scripts/mediainfo [xml](https://github.com/ablwr/xslt_miap_2016/blob/master/scripts/mediainfo.xml) [xsl](https://github.com/ablwr/xslt_miap_2016/blob/master/scripts/mediainfo_simple.xsl)
-* scripts/roles [xml](https://github.com/ablwr/xslt_miap_2016/blob/master/scripts/roles.xml) [xsl](https://github.com/ablwr/xslt_miap_2016/blob/master/scripts/roles.xsl)
-* scripts/movies [xml](https://github.com/ablwr/xslt_miap_2016/blob/master/scripts/movies.xml) [xsl](https://github.com/ablwr/xslt_miap_2016/blob/master/scripts/movies.xsl)
-* scripts/movies (html) [xsl](https://github.com/ablwr/xslt_miap_2016/blob/master/scripts/movies_html.xsl)
+* scripts/mediainfo [xml](https://raw.githubusercontent.com/ablwr/xslt_miap_2016/blob/master/scripts/mediainfo.xml) [xsl](https://raw.githubusercontent.com/ablwr/xslt_miap_2016/blob/master/scripts/mediainfo_simple.xsl)
+* scripts/roles [xml](https://raw.githubusercontent.com/ablwr/xslt_miap_2016/master/scripts/roles.xml) [xsl](https://raw.githubusercontent.com/ablwr/xslt_miap_2016/blob/master/scripts/roles.xsl)
+* scripts/movies [xml](https://raw.githubusercontent.com/ablwr/xslt_miap_2016/blob/master/scripts/movies.xml) [xsl](https://raw.githubusercontent.com/ablwr/xslt_miap_2016/blob/master/scripts/movies.xsl) | [answers](https://raw.githubusercontent.com/ablwr/xslt_miap_2016/master/scripts/movies_answer.xsl)
+* scripts/movies (html) [xsl](https://raw.githubusercontent.com/ablwr/xslt_miap_2016/master/scripts/movies_html.xsl) | [answers](https://raw.githubusercontent.com/ablwr/xslt_miap_2016/master/scripts/movies_html_answer.xsl)
 
 ## Command line tools
 
-[xsltproc](http://xmlsoft.org/XSLT/xsltproc2.html)
+[xsltproc](http://xmlsoft.org/XSLT/xsltproc2.html) (Macs)
 
 [ffmpeg](https://ffmpeg.org/)
